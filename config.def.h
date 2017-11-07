@@ -8,6 +8,11 @@
 char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 int borderpx = 2;
 
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 1;
+int disableroman = 1;
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
